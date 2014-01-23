@@ -1,0 +1,10 @@
+{"manifest_version": 2,
+ "name": "blocknodium",
+ "description": "Any page mentioning node.js will be replaced with a red cross",
+ "version": "0.1",
+ "permissions": ["*://*/*"],
+ "web_accessible_resources": ["cross.png",
+                              "cross.css"],
+ "content_scripts": [{"matches": ["*://*/*"],
+                      "js": ["blocknodium.js"],
+                      "run_at": "document_end"}]}
