@@ -8,3 +8,6 @@ It looks something like this:
 
 .. image:: http://i.imgur.com/0HKKgIm.png
    :width: 500px
+
+This extension is not available on the Chrome app store as I don't care enough
+about crossing out node.js to pay the USD 5 registration fee.
